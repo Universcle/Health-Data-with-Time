@@ -1,0 +1,10 @@
+1, Time point:
+sleep <- sleeptime()
+
+overall(sleep)
+
+names(table(sleep$year))
+
+specific(sleep, 2020)
+specific(sleep, 2021)
+specific(sleep, 2022)
