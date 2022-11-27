@@ -1,4 +1,4 @@
-# Health-Data-with-Time
+# Health-Data-with-Time(user interactive)
 Provide users with functions to handle time data<br />
 The __R functions__ are based on __Apple health data__<br />
 Which is downloaded from __Simple Health Export CSV__ app<br />
@@ -27,3 +27,5 @@ _Hypothesis test like z test, f test, t test_<br />
 _Linear Regression & Correlation_<br />
 
 ## Provide powerpoint for better understanding
+just simply download csv and put into health_data file<br />
+then you can enjoy preprocess data without coding<br />
