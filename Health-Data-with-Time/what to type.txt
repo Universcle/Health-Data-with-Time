@@ -18,3 +18,7 @@ period <- newsubset(ws)
 
 basicinfo_y(df)
 basicinfo_m(df, 2021)
+
+
+update1:
+change the function of newsubset: some '=' to'<='

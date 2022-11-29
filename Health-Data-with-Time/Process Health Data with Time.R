@@ -209,9 +209,9 @@ newsubset <- function(df){
                                  mon1 >= as.numeric(getit(start_[[1]][2]))),
                                  day1 >= as.numeric(getit(start_[[1]][3])))
   fin_df <- subset(subset(subset(pre_df,
-                                 year1 = as.numeric(end_[[1]][1])),
-                                 mon1 = as.numeric(getit(end_[[1]][2]))),
-                                 day1 = as.numeric(getit(end_[[1]][3])))
+                                 year1 <= as.numeric(end_[[1]][1])),
+                                 mon1 <= as.numeric(getit(end_[[1]][2]))),
+                                 day1 <= as.numeric(getit(end_[[1]][3])))
   output <- fin_df
   print("---End---")
   return(output)
